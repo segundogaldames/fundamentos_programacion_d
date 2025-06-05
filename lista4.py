@@ -20,6 +20,8 @@ while estado:
                     sueldos[x+1] = aux
 
         print(f"Los datos ordenados son {sueldos}")
+        
+        estado = False
     except ValueError:
         print("Error: dato incorrecto")
     finally:
